@@ -1,5 +1,5 @@
 var fs = require ('fs');
-var buffer = new Buffer(fs.readFileSync('index-fluid.html'),'utf-8');
+var buffer = new Buffer(fs.readFileSync('index.html'),'utf-8');
   
 var express = require('express');
 
